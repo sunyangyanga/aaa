@@ -1,0 +1,59 @@
+*{padding: 0; margin: 0; list-style: none; text-decoration: none; font-size: 13px; font-family: "宋体","微软雅黑",Serif;color: #000;}
+h1,h2,h3,h4,h5,h6,strong{font-weight: normal;}
+em,i{font-style: normal;}
+
+.sec1{width: 100%; background-color: #eee; height: 30px;}
+.sec1_pos{width: 1190px; margin: 0 auto;}
+.sec1_pos img{float: left;}
+.sec1_pos p{
+	background: url(images/address.png) 5px 8px no-repeat;
+	margin-left: 10px;
+	float: left; color: #a6a6a6;
+	font-size: 13px;
+	line-height: 30px; 
+	width: 32px;
+	padding-left: 20px;
+}
+.sec1_ul1{float: right;}
+.sec1_ul1 li{float: left;}
+.sec1_ul1 li a{display: inline-block;padding: 0 5px;}
+.zc_jd{border: 1px solid transparent;}
+.jd_hover{border: 1px solid #bbb; background-color: #fff;border-top: none;}
+.sec1_ul1 li a:hover{color: #c00;}
+.sec1_ul1 li,.sec1_ul1 li a{
+	font-size: 13px;
+	color: #a6a6a6;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+.sec1_ul1 li span{font-size: 13px; color: #bbb;cursor: default;margin: 0 6px;}
+.sec1_ul1 .login{
+	font-size: 12px;
+}
+.sec1_ul1 .regist{
+	color: #ff2020;
+	font-weight: bolder;
+}
+.sec11{
+		width: 250px; 
+		height: 150px;
+		background-color: #fff; 
+		border: 1px solid #ccc;
+		border-top: none; 
+		position: absolute;
+		top: 30px; 
+		left: 843px;
+		display: none;
+	}
+.sec11 li{width: 115px; float: left;margin-top: 10px;margin-left: 10px;}
+.sec1_ul2{padding-bottom: 90px; border-bottom: 1px solid #ccc;}
+.sec11 ul li a{color: #aaa;font-weight: bold;}
+.sec11 ul li a:hover{color: #c00;}
+
+.sec12{
+	width: 150px;
+	height: 250px;
+	background-color: #fff; 
+	border: 1px solid #ccc;
+}
